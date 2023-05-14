@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCloudNativeWebApp.Discounts.Api", "TheCloudNativeWebApp.Discounts.Api\TheCloudNativeWebApp.Discounts.Api.csproj", "{19C4E25B-9805-4123-B1F7-3FC833F34A46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCloudNativeWebApp.Discounts.Api.Tests", "TheCloudNativeWebApp.Discounts.Api.Tests\TheCloudNativeWebApp.Discounts.Api.Tests.csproj", "{B3B6A4D0-5978-4775-9DAF-F277C8D64756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCloudNativeWebApp.Discounts.Infrastructure.Sql", "TheCloudNativeWebApp.Discounts.Infrastructure.Sql\TheCloudNativeWebApp.Discounts.Infrastructure.Sql.csproj", "{248B038C-5189-4994-B3F0-DCF37DE7367A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCloudNativeWebApp.Discounts.Infrastructure.Sql.Tests", "TheCloudNativeWebApp.Discounts.Infrastructure.Sql.Tests\TheCloudNativeWebApp.Discounts.Infrastructure.Sql.Tests.csproj", "{C2F11E49-F89F-4D8D-B140-1F182C98F796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCloudNativeWebApp.Discounts.Core.Tests", "TheCloudNativeWebApp.Discounts.Core.Tests\TheCloudNativeWebApp.Discounts.Core.Tests.csproj", "{52CFE467-333E-4ACD-943A-CBEA261D11C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCloudNativeWebApp.Discounts.Core", "TheCloudNativeWebApp.Discounts.Core\TheCloudNativeWebApp.Discounts.Core.csproj", "{BD9F3084-51C4-4619-BC5C-4FBEA190A353}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19C4E25B-9805-4123-B1F7-3FC833F34A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C4E25B-9805-4123-B1F7-3FC833F34A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C4E25B-9805-4123-B1F7-3FC833F34A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C4E25B-9805-4123-B1F7-3FC833F34A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B6A4D0-5978-4775-9DAF-F277C8D64756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B6A4D0-5978-4775-9DAF-F277C8D64756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B6A4D0-5978-4775-9DAF-F277C8D64756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B6A4D0-5978-4775-9DAF-F277C8D64756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{248B038C-5189-4994-B3F0-DCF37DE7367A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248B038C-5189-4994-B3F0-DCF37DE7367A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248B038C-5189-4994-B3F0-DCF37DE7367A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248B038C-5189-4994-B3F0-DCF37DE7367A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F11E49-F89F-4D8D-B140-1F182C98F796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F11E49-F89F-4D8D-B140-1F182C98F796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F11E49-F89F-4D8D-B140-1F182C98F796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F11E49-F89F-4D8D-B140-1F182C98F796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52CFE467-333E-4ACD-943A-CBEA261D11C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52CFE467-333E-4ACD-943A-CBEA261D11C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52CFE467-333E-4ACD-943A-CBEA261D11C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52CFE467-333E-4ACD-943A-CBEA261D11C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9F3084-51C4-4619-BC5C-4FBEA190A353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9F3084-51C4-4619-BC5C-4FBEA190A353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9F3084-51C4-4619-BC5C-4FBEA190A353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9F3084-51C4-4619-BC5C-4FBEA190A353}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

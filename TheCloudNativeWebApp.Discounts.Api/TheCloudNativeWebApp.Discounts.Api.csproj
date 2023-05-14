@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\signingkey.snk</AssemblyOriginatorKeyFile>
+    <UserSecretsId>16743f9a-b149-4282-971b-e745fc4d48d3</UserSecretsId>
+    <PackageId>TheCloudNativeWebApp.Discounts.Api</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TheCloudNativeWebApp.Discounts.Core\TheCloudNativeWebApp.Discounts.Core.csproj" />
+    <ProjectReference Include="..\TheCloudNativeWebApp.Discounts.Infrastructure.Sql\TheCloudNativeWebApp.Discounts.Infrastructure.Sql.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\signingkey.snk">
+      <Link>Configuration\signingkey.snk</Link>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Endpoints" />
+  </ItemGroup>
+
+</Project>

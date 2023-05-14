@@ -1,0 +1,1 @@
+dotnet run --project ./../WebshopOnDdd.Discounts.Api/WebshopOnDdd.Discounts.Api.csproj
